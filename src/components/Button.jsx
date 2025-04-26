@@ -5,10 +5,9 @@ const Button = ({ id, type, buttonClass, children, onClick, onFocus,onBlur,onMou
 			id={id}
 			type={type}
 			className={buttonClass}
-			onClick={onClick}
-			onFocus={onFocus}
-      onClick={onClick} 
-      onBlur={onBlur} 
+	onClick={onClick}
+	onFocus={onFocus}
+	onBlur={onBlur} 
      onMouseEnter={onMouseEnter}
 		>
 
